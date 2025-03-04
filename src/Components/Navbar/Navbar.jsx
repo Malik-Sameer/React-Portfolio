@@ -34,9 +34,9 @@ function Navbar() {
   return (
     <div className='fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50'>
         <div className='max-w-[1300px] mx-auto  flex justify-between text-gray-200
-        text-xl items-center px-12 h-20'>
+        text-xl items-center px-12 h-20 cursor-pointer' >
 
-            <a href="#">Sameer</a>
+            <Link to="tohero"smooth={true} offset={-100} duration={500}>Sameer</Link>
 
             <ul className='hidden md:flex gap-12 z-10 cursor-pointer'>
                 <li><Link to="toskills" smooth={true} offset={50} duration={500}>Skills</Link></li>

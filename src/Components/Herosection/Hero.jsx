@@ -30,7 +30,7 @@ const Hero = () => {
         document.body.removeChild(link);
       };
   return (
-    <div className="mt-24 max-w-[1200px] mx-auto relative">
+    <div className="mt-24 max-w-[1200px] mx-auto relative" id="tohero">
         <div className="grid md:grid-cols-2 place-items-center gap-8">
             <motion.div
             initial={{ opacity: 0, y: -50 }}
