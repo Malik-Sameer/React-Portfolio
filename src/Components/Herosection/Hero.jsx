@@ -1,6 +1,6 @@
 import React from "react";
 import './Hero.css'
-import profilepic from "../../assets/sameer2.png";
+import profilepic from "../../assets/Sameer2.png";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "../shinyEffect/shinyEffect";
 import {
