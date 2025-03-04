@@ -1,0 +1,12 @@
+.contact-result{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: -2rem;
+}
+@media (max-width:767px) {
+    .contact-result{
+        margin-top: 0rem;
+    }
+}
